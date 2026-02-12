@@ -59,7 +59,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 420px;
+    width: 300px;
 }
 
 .right-side-first-section {
@@ -67,8 +67,7 @@ button {
     background-color: grey;
 }
 
-p {
-    margin: 5px;
+.secondary-text {
     font-size: 18px;
 }
 
@@ -77,7 +76,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 500px;
 }
 
 .random-info {
@@ -103,6 +102,39 @@ p {
     display: flex;
     flex-direction: column;
     width: 160px;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
+}
+
+.third-section-wrapper {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.thor {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
 }
