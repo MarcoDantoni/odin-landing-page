@@ -71,3 +71,38 @@ p {
     margin: 5px;
     font-size: 18px;
 }
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.random-info {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.random-image {
+    width: 160px;
+    height: 160px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    margin: 10px;
+    text-align: center;
+}
