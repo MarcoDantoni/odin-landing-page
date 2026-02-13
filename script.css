@@ -183,3 +183,12 @@ p {
     border-style: solid;
     font-weight: bold;
 }
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
