@@ -144,3 +144,42 @@ p {
     flex-direction: column;
     width: 800px;
 }
+
+.fourth-section-wrapper {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section {
+    background-color: #3882f6;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.button-fourth-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta {
+    font-weight: bold;
+}
+
+.button-two {
+    border-color: white;
+    border-style: solid;
+    font-weight: bold;
+}
